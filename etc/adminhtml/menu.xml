@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Wantto_Sleep::manager" title="Grid Manager" module="Wantto_Sleep" sortOrder="10" resource="Wantto_Sleep::manager" />
+        <add id="Wantto_Sleep::add_row" title="Grid Manager" module="Wantto_Sleep" sortOrder="20" parent="Wantto_Sleep::manager" action="grid/grid" resource="Wantto_Sleep::add_row"/>
+    </menu>
+</config>
